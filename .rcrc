@@ -1,0 +1,2 @@
+DOTFILES_DIRS="~/Sites/moje/personal/dotfiles"
+EXCLUDES="LICENSE-MIT.txt:README.md"

@@ -23,3 +23,9 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ```bash
 ./.cask
 ```
+
+### Copy dotfiles
+
+```
+rcup -d <dir>
+```
