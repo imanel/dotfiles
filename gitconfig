@@ -10,7 +10,7 @@
 	pl = pull
 	ps = push
 	# Remove cached files and add them again.
-	rma = "!r() {rm -r --cached $1; add $1}; r"
+	rma = "!r() { git rm -rq --cached $1; git add $1; }; r"
 	# View the current working tree status using the short format
 	# Interactive rebase with the given number of latest commits
 	squash = "!r() { git rebase -i HEAD~$1; }; r"

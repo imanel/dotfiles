@@ -4,10 +4,6 @@ update
 # Upgrade any already-installed formulae
 upgrade
 
-# Install RC manager
-tap thoughtbot/formulae
-install rcm
-
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 install coreutils
@@ -16,41 +12,43 @@ install findutils
 # Install Bash 4
 install bash
 
-# Install wget with IRI support
-install wget --enable-iri
+# Install wget
+install wget
 
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
-
-# Install more recent versions of some OS X tools
-install vim --override-system-vi
-tap homebrew/dupes
-install homebrew/dupes/grep
-tap josegonzalez/homebrew-php
-install php55
-
-# This formula didn’t work well last time I tried it:
-#install homebrew/dupes/screen
-
-# Install other useful binaries
-install ack
-#install exiv2
+# Install tools for development
 install git
-#install imagemagick
-install lynx
 install node
-install pigz
-install rename
-install rhino
-install tree
-install webkit2png
-install zopfli
-install p7zip
+install memcached
+install openssl
+install postgresql
+install redis
 
-tap homebrew/versions
-install lua52
+# Install RC manager
+tap thoughtbot/formulae
+install rcm
+
+############
+### CASK ###
+############
+
+# Bootstrap
+tap phinze/homebrew-cask
+install brew-cask
+
+# Required for Sublime Text 3
+tap caskroom/versions
+
+# Cask packages
+cask install beamer
+cask install dropbox
+cask install firefox
+cask install google-chrome
+cask install hipchat
+cask install skype
+cask install spotify
+cask install sublime-text3
+cask install totalterminal
+cask install transmission
 
 # Remove outdated versions from the cellar
 cleanup
