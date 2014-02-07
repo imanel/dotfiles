@@ -65,7 +65,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Alias Sublime Text instead of copying files
-alias subl="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # Alias bundle exec
 alias be="bundle exec"
