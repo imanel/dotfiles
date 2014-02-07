@@ -251,7 +251,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # defaults write com.apple.finder ShowStatusBar -bool true
 
 # Finder: show path bar
-defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder ShowPathbar -bool false
 
 # Finder: allow text selection in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
@@ -342,9 +342,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 ###############################################################################
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
-defaults write com.apple.dock mouse-over-hilite-stack -bool true
+defaults write com.apple.dock mouse-over-hilite-stack -bool false
 
-# Set the icon size of Dock items to 36 pixels
+# Set the icon size of Dock items to 27 pixels
 defaults write com.apple.dock tilesize -int 27
 
 # Minimize windows into their application’s icon
