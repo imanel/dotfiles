@@ -3,7 +3,7 @@
 	co = checkout
 	ci = commit
 	cm = commit -m
-	st = status -s
+	st = status
 	di = diff
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	lg = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -40,17 +40,17 @@
 	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
 	ui = auto
 [color "branch"]
-	current = yellow reverse
+	current = green
 	local = yellow
 	remote = green
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+	meta = yellow
+	frag = cyan
+	old = red
+	new = green
 [color "status"]
-	added = yellow
-	changed = green
+	added = green
+	changed = yellow
 	untracked = cyan
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages

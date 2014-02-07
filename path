@@ -3,3 +3,6 @@ export PATH="$HOME/.bin:$PATH"
 
 # Add RVM to PATH for scripting
 export PATH="$HOME/.rvm/bin:$PATH"
+
+# Export brew files
+export PATH="/usr/local/bin:$PATH"
