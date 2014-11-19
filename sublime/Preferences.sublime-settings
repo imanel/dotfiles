@@ -1,37 +1,37 @@
 {
   "bold_folder_labels": true,
-	"default_encoding": "UTF-8",
-	"detect_indentation": false,
-	"dictionary": "Packages/Language - English/en_US.dic",
-	"draw_white_space": "none",
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		".DS_Store"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
+  "default_encoding": "UTF-8",
+  "detect_indentation": false,
+  "dictionary": "Packages/Language - English/en_US.dic",
+  "draw_white_space": "none",
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    ".DS_Store"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
     ".sass-cache",
     ".vagrant",
     "log",
     "node_modules",
     "tmp"
-	],
-	"font_size": 12,
-	"highlight_line": true,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"remember_open_files": false,
-	"show_encoding": true,
-	"show_full_path": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+  ],
+  "font_size": 12,
+  "highlight_line": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "match_brackets": true,
+  "match_brackets_angle": true,
+  "remember_open_files": false,
+  "show_encoding": true,
+  "show_full_path": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
 }
