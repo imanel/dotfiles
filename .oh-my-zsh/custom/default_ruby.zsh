@@ -1,1 +1,1 @@
-chruby 2.2.0
+chruby 2.2.1
