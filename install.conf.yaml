@@ -1,4 +1,9 @@
-- clean: ['~']
+# - shell:
+#   - git submodule update --init --recursive
+
+- clean:
+  - '~'
+  - '~/Library/Application Support/Sublime Text 3/Packages/User/'
 
 - link:
     # System files
@@ -7,6 +12,7 @@
     ~/.gitconfig: 'system/gitconfig'
     ~/.gitignore: 'system/gitignore'
     ~/.irbrc: 'system/irbrc'
+    ~/.oh-my-zsh: 'oh-my-zsh'
     ~/.ruby-version: 'system/ruby-version'
     ~/.wgetrc: 'system/wgetrc'
     ~/.zshrc: 'system/zshrc'
@@ -15,5 +21,3 @@
     # Sublime text
     ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'sublime/Preferences.sublime-settings'
 
-# - shell:
-#   - [git submodule update --init --recursive, Installing submodules]
