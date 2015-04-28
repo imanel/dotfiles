@@ -1,0 +1,16 @@
+- clean: ['~']
+
+- link:
+    ~/.curlrc: '.curlrc'
+    ~/.gemrc: '.gemrc'
+    ~/.gitconfig: '.gitconfig'
+    ~/.gitignore: '.gitignore'
+    ~/.irbrc: '.irbrc'
+    ~/.ruby-version: '.ruby-version'
+    ~/.wgetrc: '.wgetrc'
+    ~/.zshrc: '.zshrc'
+    ~/.zsh-custom: '.zsh-custom/'
+    ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'sublime/Preferences.sublime-settings'
+
+# - shell:
+#   - [git submodule update --init --recursive, Installing submodules]
