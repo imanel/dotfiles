@@ -13,6 +13,7 @@
     ~/.gitignore: 'system/gitignore'
     ~/.irbrc: 'system/irbrc'
     ~/.oh-my-zsh: 'oh-my-zsh'
+    ~/.railsrc: 'system/railsrc'
     ~/.ruby-version: 'system/ruby-version'
     ~/.wgetrc: 'system/wgetrc'
     ~/.zshrc: 'system/zshrc'

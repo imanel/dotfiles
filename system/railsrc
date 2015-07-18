@@ -1,0 +1,4 @@
+--database=postgres
+--skip-spring
+--skip-test-unit
+--skip-turbolinks
