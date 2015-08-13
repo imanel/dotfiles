@@ -7,6 +7,6 @@ DISABLE_UPDATE_PROMPT="true"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-plugins=(bundler chruby common-aliases docker git git-override rails ruby sublime terminalapp vagrant)
+plugins=(bundler chruby common-aliases docker git rails ruby sublime terminalapp vagrant)
 
 source $ZSH/oh-my-zsh.sh
