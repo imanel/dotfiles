@@ -27,6 +27,10 @@
 	added = green
 	changed = yellow
 	untracked = cyan
+
+[diff]
+	compactionHeuristic = true
+
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
