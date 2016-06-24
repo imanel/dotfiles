@@ -13,8 +13,8 @@ brew "chruby"
 brew "ruby-install"
 
 # Databases
-brew "mongodb"
-brew "mysql"
+# brew "mongodb"
+# brew "mysql"
 brew "redis"
 brew "postgresql"
 
