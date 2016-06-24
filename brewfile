@@ -41,3 +41,19 @@ cask "skype"
 cask "steam"
 cask "sublime-text"
 cask "virtualbox"
+
+# App Store
+# - 1Password
+# - Blotter
+# - CloudApp
+# - Dash
+# - Fantastical
+# - Monit
+# - Navicat Premium Essentials
+# - Numbers
+# - Pages
+# - Pixelmator
+# - Slack
+# - Swipe Translate
+# - Tweetbot
+# - Xcode
