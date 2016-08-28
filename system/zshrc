@@ -3,7 +3,7 @@ export ZSH_CUSTOM=$HOME/.zsh-custom
 
 # Auto-complete should be case-sensitive
 CASE_SENSITIVE="true"
-DISABLE_UPDATE_PROMPT="true"
+DISABLE_AUTO_UPDATE="true"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
