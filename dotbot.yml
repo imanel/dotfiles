@@ -3,7 +3,7 @@
 
 - clean:
   - '~'
-  - '~/Library/Application Support/Sublime Text 3/Packages/User/'
+  - '~/Library/Application Support/Code/User/'
 
 - link:
     # System files
@@ -19,5 +19,5 @@
     ~/.zshrc: 'system/zshrc'
     ~/.zsh-custom: 'system/zsh-custom/'
 
-    # Sublime text
-    ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'sublime/Preferences.sublime-settings'
+    # Visual Studio Code config
+    ~/Library/Application Support/Code/User/settings.json: 'vscode/settings.json'
