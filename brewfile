@@ -5,6 +5,7 @@
 # Base
 brew "git"
 brew "openssl"
+brew "wget"
 brew "zsh"
 brew "zsh-completions"
 
@@ -35,6 +36,7 @@ cask "goofy"
 cask "google-chrome"
 cask "iterm2-beta"
 cask "mplayerx"
+cask "parallels-desktop"
 cask "putio-adder"
 cask "qnapi"
 cask "skype"
@@ -53,5 +55,6 @@ cask "visual-studio-code"
 # - Pixelmator
 # - Slack
 # - Swipe Translate
-# - Tweetbot
+# - The Unarchiver
+# - Tweetdeck
 # - Xcode
