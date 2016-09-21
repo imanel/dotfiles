@@ -26,8 +26,8 @@ brew "ios-webkit-debug-proxy"
 brew "node"
 
 # Cask bootstrap
-tap "caskroom/cask"
-tap "caskroom/versions"
+# tap "caskroom/cask"
+# tap "caskroom/versions"
 
 # Cask packages
 cask "beamer"
