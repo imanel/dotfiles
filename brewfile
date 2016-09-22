@@ -9,6 +9,10 @@ brew "wget"
 brew "zsh"
 brew "zsh-completions"
 
+# Personal
+tap 'imanel/tap'
+brew 'dotbot'
+
 # Ruby
 brew "chruby"
 brew "ruby-install"
@@ -24,10 +28,6 @@ brew "heroku"
 brew "imagemagick"
 brew "ios-webkit-debug-proxy"
 brew "node"
-
-# Cask bootstrap
-# tap "caskroom/cask"
-# tap "caskroom/versions"
 
 # Cask packages
 cask "beamer"
