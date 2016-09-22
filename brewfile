@@ -10,8 +10,9 @@ brew "zsh"
 brew "zsh-completions"
 
 # Personal
-tap 'imanel/tap'
-brew 'dotbot'
+tap "imanel/tap"
+brew "dotbot"
+brew "oh-my-zsh"
 
 # Ruby
 brew "chruby"

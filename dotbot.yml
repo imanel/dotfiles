@@ -1,6 +1,3 @@
-# - shell:
-#   - git submodule update --init --recursive
-
 - clean:
   - '~'
   - '~/Library/Application Support/Code/User/'
@@ -12,7 +9,6 @@
     ~/.gitconfig: 'system/gitconfig'
     ~/.gitignore: 'system/gitignore'
     ~/.irbrc: 'system/irbrc'
-    ~/.oh-my-zsh: 'oh-my-zsh'
     ~/.railsrc: 'system/railsrc'
     ~/.ruby-version: 'system/ruby-version'
     ~/.wgetrc: 'system/wgetrc'
