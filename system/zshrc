@@ -6,6 +6,6 @@ CASE_SENSITIVE="true"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-plugins=(bundler chruby common-aliases docker git rails ruby sublime vagrant)
+plugins=(bundler chruby git heroku rails)
 
 source $ZSH/oh-my-zsh.sh
