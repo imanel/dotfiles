@@ -4,7 +4,6 @@
 
 # Base
 brew "git"
-brew "openssl"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
