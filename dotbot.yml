@@ -13,7 +13,6 @@
     ~/.ruby-version: 'system/ruby-version'
     ~/.wgetrc: 'system/wgetrc'
     ~/.zshrc: 'system/zshrc'
-    ~/.zsh-custom: 'system/zsh-custom/'
 
     # Visual Studio Code config
     ~/Library/Application Support/Code/User/settings.json: 'vscode/settings.json'

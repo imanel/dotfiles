@@ -1,5 +1,8 @@
+# oh-my-zsh from homebrew
 export ZSH=/usr/local/opt/oh-my-zsh
-export ZSH_CUSTOM=$HOME/.zsh-custom
+
+# Set Visual Studio Code as default editor
+export EDITOR="code -w"
 
 # Auto-complete should be case-sensitive
 CASE_SENSITIVE="true"
@@ -9,3 +12,15 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 plugins=(bundler chruby git heroku rails)
 
 source $ZSH/oh-my-zsh.sh
+
+# Prompt with git marker
+PROMPT='%{$fg[cyan]%}%~ $(git_prompt_info)%{$reset_color%}$ '
+PROMPT_EOL_MARK=""
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}("
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[green]%}) "
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}*"
+ZSH_THEME_GIT_PROMPT_CLEAN=""
+
+# Aliases
+alias gcm='git commit -m'
+compdef _git gcm=git-commit
