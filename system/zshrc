@@ -2,7 +2,7 @@
 export ZSH=/usr/local/opt/oh-my-zsh
 
 # Set Visual Studio Code as default editor
-export EDITOR="code -w"
+export EDITOR="subl -w"
 
 # Auto-complete should be case-sensitive
 CASE_SENSITIVE="true"
