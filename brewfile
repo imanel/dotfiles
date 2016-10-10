@@ -40,7 +40,7 @@ cask "parallels-desktop"
 cask "putio-adder"
 cask "qnapi"
 cask "skype"
-cask "visual-studio-code"
+cask "sublime-text"
 
 # App Store
 # - 1Password
