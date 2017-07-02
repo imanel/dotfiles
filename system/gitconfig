@@ -28,6 +28,9 @@
 	changed = yellow
 	untracked = cyan
 
+[commit]
+	gpgsign = true
+
 [diff]
 	compactionHeuristic = true
 
@@ -41,3 +44,4 @@
 [user]
 	name = Bernard Potocki
 	email = bernard.potocki@imanel.org
+	signingkey = AAEB92A06F7E15E8
