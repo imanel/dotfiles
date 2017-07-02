@@ -26,10 +26,11 @@ brew "postgresql"
 # Other dev tools
 brew "heroku"
 brew "imagemagick"
-brew "ios-webkit-debug-proxy"
+# brew "ios-webkit-debug-proxy"
 brew "node"
 
 # Cask packages
+<<<<<<< HEAD:brewfile
 cask "beamer"
 cask "dropbox"
 cask "google-chrome"
@@ -40,6 +41,19 @@ cask "putio-adder"
 cask "qnapi"
 cask "skype"
 cask "sublime-text"
+=======
+# cask "beamer"
+# cask "dropbox"
+# cask "goofy"
+# cask "google-chrome"
+# cask "iterm2-beta"
+# cask "mplayerx"
+# cask "parallels-desktop"
+# cask "putio-adder"
+# cask "qnapi"
+# cask "skype"
+# cask "sublime-text"
+>>>>>>> Rename Brewfile:Brewfile
 
 # App Store
 # - 1Password
