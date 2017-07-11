@@ -19,7 +19,7 @@ brew "ruby-install"
 
 # Databases
 # brew "mongodb"
-# brew "mysql"
+brew "mysql"
 brew "redis"
 brew "postgresql"
 
@@ -30,18 +30,6 @@ brew "imagemagick"
 brew "node"
 
 # Cask packages
-<<<<<<< HEAD:brewfile
-cask "beamer"
-cask "dropbox"
-cask "google-chrome"
-cask "iterm2"
-cask "mplayerx"
-# cask "parallels-desktop"
-cask "putio-adder"
-cask "qnapi"
-cask "skype"
-cask "sublime-text"
-=======
 # cask "beamer"
 # cask "dropbox"
 # cask "goofy"
@@ -53,7 +41,6 @@ cask "sublime-text"
 # cask "qnapi"
 # cask "skype"
 # cask "sublime-text"
->>>>>>> Rename Brewfile:Brewfile
 
 # App Store
 # - 1Password
