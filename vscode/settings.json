@@ -1,7 +1,18 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
   "editor.renderIndentGuides": true,
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.sass-cache": true
+  },
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "window.restoreWindows": "none",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Monokai"
 }
