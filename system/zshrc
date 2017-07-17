@@ -24,7 +24,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 # Aliases
 alias gcm='git commit -m'
 compdef _git gcm=git-commit
-alias code='open -a "Visual Studio Code" "$1"'
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
 # Env variables
 export LOVEOS_BACKEND_AUTH_TOKEN=secret
