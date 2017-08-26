@@ -1,6 +1,5 @@
 - clean:
   - '~'
-  - '~/Library/Application Support/Code/User/'
   - '~/Library/Application Support/Sublime Text 3/Packages/User/'
 
 - link:
@@ -17,6 +16,3 @@
 
     # Sublime Text
     ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'sublime/Preferences.sublime-settings'
-
-    # Visual Studio Code config
-    ~/Library/Application Support/Code/User/settings.json: 'vscode/settings.json'
