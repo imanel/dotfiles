@@ -10,7 +10,6 @@ brew 'zsh-completions'
 
 # Personal
 tap 'imanel/tap'
-brew 'dotbot'
 brew 'oh-my-zsh', args: ['HEAD']
 
 # Dev tools
