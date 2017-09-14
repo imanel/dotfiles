@@ -4,6 +4,7 @@
 
 # Base
 brew 'git'
+brew 'openssl'
 brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
@@ -18,12 +19,15 @@ brew 'chruby'
 brew 'ruby-install'
 
 # Databases
+brew 'memcached'
 # brew 'mongodb'
 brew 'mysql'
 brew 'redis'
 brew 'postgresql'
+brew 'sqlite'
 
 # Other dev tools
+brew 'forego'
 brew 'heroku'
 brew 'imagemagick'
 # brew 'ios-webkit-debug-proxy'
@@ -31,31 +35,36 @@ brew 'node'
 
 # Cask packages
 cask 'beamer'
+cask 'caprine'
+cask 'dash'
+cask 'docker'
 cask 'dropbox'
-cask 'goofy'
 cask 'google-chrome'
+cask 'iina'
 cask 'insomnia'
-cask 'iterm2-beta'
-cask 'mplayerx'
-cask 'parallels-desktop'
-cask 'putio-adder'
+cask 'ipvanish-vpn'
+cask 'iterm2'
+cask 'plex-media-player'
 cask 'qnapi'
+cask 'sequel-pro'
 cask 'skype'
-cask 'sublime-text'
+cask 'spotify'
+cask 'steam'
+cask 'viscosity'
+cask 'visual-studio-code'
 
 # App Store
 # - 1Password
-# - Blotter
-# - CloudApp
-# - Dash
-# - Fantastical
+# - Airmail 3
+# - Fantastical 2
+# - Microsoft OneNote
 # - Monit
+# - Moom
 # - Navicat Premium Essentials
 # - Numbers
+# - OmniFocus
 # - Pages
 # - Pixelmator
 # - Slack
-# - Swipe Translate
 # - The Unarchiver
-# - Tweetdeck
 # - Xcode
