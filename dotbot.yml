@@ -1,14 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
 - clean:
   - '~'
 
 - link:
-    # System files
-    ~/.curlrc: 'system/curlrc'
-    ~/.gemrc: 'system/gemrc'
-    ~/.gitconfig: 'system/gitconfig'
-    ~/.gitignore: 'system/gitignore'
-    ~/.irbrc: 'system/irbrc'
-    ~/.railsrc: 'system/railsrc'
-    ~/.ruby-version: 'system/ruby-version'
-    ~/.wgetrc: 'system/wgetrc'
-    ~/.zshrc: 'system/zshrc'
+    ~/.curlrc:
+    ~/.gemrc:
+    ~/.gitconfig:
+    ~/.gitignore:
+    ~/.irbrc:
+    ~/.railsrc:
+    ~/.ruby-version:
+    ~/.wgetrc:
+    ~/.zshrc:
