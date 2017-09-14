@@ -1,7 +1,3 @@
-# Bootstrap:
-# $ brew tap homebrew/bundle
-# $ brew bundle
-
 # Base
 brew 'openssl'
 brew 'wget'
