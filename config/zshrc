@@ -6,6 +6,9 @@ export ZSH=$HOME/.dotfiles/.oh-my-zsh
 # Auto-complete should be case-sensitive
 CASE_SENSITIVE="true"
 
+# Disable oh-my-zsh updates
+DISABLE_AUTO_UPDATE="true"
+
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 plugins=(asdf bundler chruby git heroku rails)
