@@ -1,6 +1,5 @@
 - clean:
   - '~'
-  - '~/Library/Application Support/Sublime Text 3/Packages/User/'
 
 - link:
     # System files
@@ -13,6 +12,3 @@
     ~/.ruby-version: 'system/ruby-version'
     ~/.wgetrc: 'system/wgetrc'
     ~/.zshrc: 'system/zshrc'
-
-    # Sublime Text
-    ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'sublime/Preferences.sublime-settings'
