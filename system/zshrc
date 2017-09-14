@@ -1,15 +1,14 @@
-# oh-my-zsh from homebrew
+# Initial exports
+export ASDF_DIR=/usr/local/opt/asdf
+export EDITOR="code -w"
 export ZSH=/usr/local/opt/oh-my-zsh
-
-# Set Visual Studio Code as default editor
-export EDITOR="nano"
 
 # Auto-complete should be case-sensitive
 CASE_SENSITIVE="true"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-plugins=(bundler chruby git heroku rails)
+plugins=(asdf bundler chruby git heroku rails)
 
 source $ZSH/oh-my-zsh.sh
 

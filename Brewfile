@@ -3,7 +3,6 @@
 # $ brew bundle
 
 # Base
-brew 'git'
 brew 'openssl'
 brew 'wget'
 brew 'zsh'
@@ -14,9 +13,14 @@ tap 'imanel/tap'
 brew 'dotbot'
 brew 'oh-my-zsh', args: ['HEAD']
 
-# Ruby
-brew 'chruby'
-brew 'ruby-install'
+# Dev tools
+brew 'asdf'
+brew 'forego'
+brew 'git'
+brew 'heroku'
+brew 'imagemagick'
+# brew 'ios-webkit-debug-proxy'
+brew 'node'
 
 # Databases
 brew 'memcached'
@@ -25,13 +29,6 @@ brew 'mysql'
 brew 'redis'
 brew 'postgresql'
 brew 'sqlite'
-
-# Other dev tools
-brew 'forego'
-brew 'heroku'
-brew 'imagemagick'
-# brew 'ios-webkit-debug-proxy'
-brew 'node'
 
 # Cask packages
 cask 'beamer'
