@@ -15,3 +15,6 @@
     ~/.ruby-version:
     ~/.wgetrc:
     ~/.zshrc:
+
+- shell:
+  - chsh -s /usr/local/bin/zsh
