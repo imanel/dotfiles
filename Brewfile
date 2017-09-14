@@ -4,10 +4,6 @@ brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
 
-# Personal
-tap 'imanel/tap'
-brew 'oh-my-zsh', args: ['HEAD']
-
 # Dev tools
 brew 'asdf'
 brew 'forego'
