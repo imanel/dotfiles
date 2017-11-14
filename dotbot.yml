@@ -13,6 +13,7 @@
     ~/.irbrc:
     ~/.railsrc:
     ~/.ruby-version:
+    ~/.rvmrc:
     ~/.wgetrc:
     ~/.zshrc:
 
