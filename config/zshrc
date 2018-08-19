@@ -27,11 +27,5 @@ alias gcm='git commit -m'
 compdef _git gcm=git-commit
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
-# Env variables
-export LOVEOS_BACKEND_AUTH_TOKEN=secret
-export INTERNAL_CLIENT_AUTH_TOKEN=secret
-export LOVEOS_BACKEND_HOST=127.0.0.1
-export LOVEOS_BACKEND_PORT=7003
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# Path
 export PATH="$PATH:$HOME/.rvm/bin"
