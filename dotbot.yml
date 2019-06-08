@@ -6,16 +6,19 @@
   - '~'
 
 - link:
+    ~/.asdfrc:
     ~/.curlrc:
     ~/.gemrc:
     ~/.gitconfig:
     ~/.gitignore:
     ~/.irbrc:
     ~/.railsrc:
-    ~/.ruby-version:
-    ~/.rvmrc:
+    ~/.tmux.conf:
+    ~/.tool-versions:
+    ~/.vimrc:
     ~/.wgetrc:
     ~/.zshrc:
+    ~/.zsh:
 
 - brewfile:
     file: ../Brewfile
