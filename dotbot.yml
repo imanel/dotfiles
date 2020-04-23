@@ -13,9 +13,9 @@
     ~/.gitignore:
     ~/.irbrc:
     ~/.railsrc:
+    ~/.SpaceVim.d: spacevim
     ~/.tmux.conf:
     ~/.tool-versions:
-    ~/.vimrc:
     ~/.wgetrc:
     ~/.zshrc:
     ~/.zsh:

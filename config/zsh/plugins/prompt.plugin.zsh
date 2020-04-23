@@ -14,5 +14,5 @@ function git_prompt_info() {
 }
 
 setopt promptsubst # Enable prompt substitution for ZSH
-PROMPT='%F{cyan}%~ $(git_prompt_info)%f$ '
+PROMPT='%F{magenta}%m %F{cyan}%~ $(git_prompt_info)%f$ '
 
