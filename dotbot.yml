@@ -19,5 +19,7 @@
     ~/.zshrc:
     ~/.zsh:
 
-- brewfile:
-    file: ../Brewfile
+- brew:
+    - gnupg
+    - pinentry-mac
+    - wget
