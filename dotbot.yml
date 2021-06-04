@@ -14,8 +14,6 @@
     ~/.gnupg/gpg-agent.conf: gpg-agent.conf
     ~/.irbrc:
     ~/.railsrc:
-    ~/.SpaceVim.d: spacevim
-    ~/.tmux.conf:
     ~/.tool-versions:
     ~/.wgetrc:
     ~/.zshrc:
