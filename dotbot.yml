@@ -21,6 +21,3 @@
 
 # - brewfile:
 #     file: ../Brewfile
-
-# - shell:
-#   - chsh -s /usr/local/bin/zsh
