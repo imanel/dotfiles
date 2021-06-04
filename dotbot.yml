@@ -20,8 +20,8 @@
     ~/.zshrc:
     ~/.zsh:
 
-- brewfile:
-    file: ../Brewfile
+# - brewfile:
+#     file: ../Brewfile
 
 - shell:
   - chsh -s /usr/local/bin/zsh
