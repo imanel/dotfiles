@@ -29,8 +29,8 @@
 	changed = yellow
 	untracked = cyan
 
-# [commit]
-# 	gpgsign = true
+[commit]
+	gpgsign = true
 
 [diff]
 	compactionHeuristic = true
