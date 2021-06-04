@@ -19,5 +19,5 @@
     ~/.zshrc:
     ~/.zsh:
 
-# - brewfile:
-#     file: ../Brewfile
+- brewfile:
+    file: ../Brewfile
